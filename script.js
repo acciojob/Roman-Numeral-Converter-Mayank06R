@@ -1,5 +1,5 @@
 function convertToRoman(num) {
-  	let roman = '';
+    let roman = '';
     const symbols = [
         ['M', 1000], 
         ['CM', 900], 
@@ -23,18 +23,12 @@ function convertToRoman(num) {
             num -= value;
         }
     }
-    return
-    };
-
-  //your code here
-
+    return roman;
 }
-// You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
-// console.log(convertToRoman(36));
+// You can test your code by running the above function and printing it to the console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
-
-
+console.log(convertToRoman(36));
 
 // do not edit below this line
-module.exports = convertToRoman
+module.exports = convertToRoman;
